@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>The Game</h1>
+    </nav>
+    <content>
+        <div>
+            <div class="player_screen">
+                <div class="player_information">
+                    <p>Name: <span id="player-name"></span></p>
+                    <p>Health: <span id="player-health"></span></p>
+                    <p>Mana: <span id="player-mana"></span></p>
+                    <p>Level: <span id="player-level"></span></p>
+                    <p>Experience: <span id="player-experience"></span></p>
+                    <p>Gold: <span id="player-gold"></span></p>
+                </div>
+                <div class="player_equipment"></div>
+                <div class="player_skills"></div>
+            </div>
+            <div class="player_inventory"></div>
+            <div class="game_map">
+                <h1>Game Map</h1>
+                <div>
+                    <ul>
+                        <li><a href="/map/town.html">Town</a></li>
+                        <li><a href="/map/woods.html">Woods</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="game_training"></div>
+        </div>
+    </content>
+    <footer>
+
+    </footer>
+    
+     <script src="game.js"></script>
+     <script>loadPlayer();</script>
+</body>
+</html>
