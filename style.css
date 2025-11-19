@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: rgb(0, 185, 0);
+    font-family: monospace;
 }
 
 fieldset {
